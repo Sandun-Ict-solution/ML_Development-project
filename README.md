@@ -1,19 +1,31 @@
-                                            BottleBot 🍷 - Wine Quality Classification - Machine Learning App
+BottleBot 🍷 - Wine Quality Classification - Machine Learning App
+
 This project demonstrates a complete Machine Learning workflow—from data exploration and model training to deploying an interactive web app using Streamlit.
 
 The objective is to classify red wine samples based on physicochemical features and predict their quality score using a supervised ML model.
 
 📌 Table of Contents
+
 •	📊 Project Overview
+
 •	📁 Dataset Information
+
 •	🧪 Technologies & Libraries
+
 •	📂 Project Structure
+
 •	📸 Features
+
 •	🧠 Machine Learning Model
+
 •	🚀 How to Run the App Locally
+
 •	🌐 Live Deployment
+
 •	📷 Screenshots
+
 •	📄 License
+
 •	👨‍💻 Author
 
 📊 Project Overview
@@ -44,15 +56,25 @@ kaggle datasets download -d eisgandar/red-wine-quality-eda-classification
 - Pickle
   
 📂 Project Structure
+
 wine-quality-classifier/
+
 ├── app.py                   # Main Streamlit app
+
 ├── model.pkl                # Trained ML model
+
 ├── requirements.txt         # List of dependencies
+
 ├── README.md                # Project documentation
+
 ├── data/
+
 │   └── winequality-red.csv  # Dataset (CSV format)
+
 └── notebooks/
-    └── model_training.ipynb # Data analysis and model training notebook
+  
+  └── model_training.ipynb # Data analysis and model training notebook
+    
 📸 Features
 ✅ Data Exploration
 - Dataset preview and statistics
@@ -90,26 +112,32 @@ wine-quality-classifier/
 📦 Steps
 1. Clone the Repository
 
-git clone https://github.com/your-username/wine-quality-classifier.git
-cd wine-quality-classifier
+        git clone https://github.com/your-username/wine-quality-classifier.git
+        cd wine-quality-classifier
 
 2. Create Virtual Environment
-python -m ml venv
 
-# Windows:
-venv\Scripts\activate
-# macOS/Linux:
-source venv/bin/activate
+       python -m ml venv
+
+        # Windows:
+       venv\Scripts\activate
+       # macOS/Linux:
+       source venv/bin/activate
 
 3. Install Required Packages
-pip install -r requirements.txt
 
-4. Run the App
-streamlit run app.py
+       pip install -r requirements.txt
+
+5. Run the App
+
+       streamlit run app.py
 
 🌐 Live Deployment
+
 🚀 App is live on Streamlit Cloud!
+
 🔗 [Click Here to Access the Live App](https://mldevelopment-project-krcwooehrfjapp9za8vd7ad.streamlit.app/)
+
 📷 Screenshots 
 
 <img width="1903" height="950" alt="Screenshot 2025-07-24 031859" src="https://github.com/user-attachments/assets/ae49e151-255b-4c63-b717-61729c4859f2" />
@@ -117,10 +145,15 @@ streamlit run app.py
 <img width="1907" height="982" alt="Screenshot 2025-07-24 031756" src="https://github.com/user-attachments/assets/a00e7c64-5b37-4c8c-9fbe-ae575267719e" />
 
 📄 License
+
 This project is intended for educational and learning purposes only.
+
 Dataset is sourced from Kaggle under the UCI Machine Learning Repository License.
+
 MIT license
 
 👨‍💻 Author
+
 - Name: Sandun Wijesingha
+
 - LinkedIn: www.linkedin.com/in/sandunind98
