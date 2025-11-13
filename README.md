@@ -112,7 +112,7 @@ wine-quality-classifier/
 📦 Steps
 1. Clone the Repository
 
-        git clone https://github.com/your-username/wine-quality-classifier.git
+        git clone https://github.com/https://github.com/Sandun-Ict-solution/ML_Development-project/wine-quality-classifier.git
         cd wine-quality-classifier
 
 2. Create Virtual Environment
